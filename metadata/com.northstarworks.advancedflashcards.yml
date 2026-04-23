@@ -8,12 +8,12 @@ Categories:
   - Education
 License: Proprietary
 AuthorName: Northstar Labs
-SourceCode: https://github.com/northstar-works/kenpo-flashcards
-IssueTracker: https://github.com/northstar-works/kenpo-flashcards/issues
+AuthorWebSite: https://github.com/northstar-works
+SourceCode: https://github.com/northstar-works/AdvancedFlashcards
+IssueTracker: https://github.com/northstar-works/AdvancedFlashcards/issues
 
 AutoUpdateMode: None
 UpdateCheckMode: None
 
-# Fill these in from the flashcards app's build.gradle
-CurrentVersion: FILL_IN
-CurrentVersionCode: 0
+CurrentVersion: 7.4.0
+CurrentVersionCode: 46

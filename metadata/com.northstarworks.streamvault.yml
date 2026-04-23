@@ -7,14 +7,15 @@ Description: |-
 
 Categories:
   - Multimedia
+  - Internet
 License: Proprietary
 AuthorName: Northstar Labs
+AuthorWebSite: https://github.com/northstar-works
 SourceCode: https://github.com/northstar-works/StreamVault
 IssueTracker: https://github.com/northstar-works/StreamVault/issues
 
 AutoUpdateMode: None
 UpdateCheckMode: None
 
-# Fill these in from StreamVault's build.gradle
-CurrentVersion: FILL_IN
-CurrentVersionCode: 0
+CurrentVersion: 5.6.10
+CurrentVersionCode: 139

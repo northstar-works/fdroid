@@ -1,10 +1,9 @@
-repo_url: "https://northstar-works.github.io/fdroid/repo"
-repo_name: "Northstar Labs"
+repo_url: "https://fdroid.sidneyshelton.com/repo"
+repo_name: "Northstar Works"
 repo_description: |-
-  Official F-Droid repository for Northstar Labs apps.
-  Add this repo in F-Droid: https://northstar-works.github.io/fdroid/repo
+  Official F-Droid repository for Northstar Works apps.
+  Add this repo in F-Droid: https://fdroid.sidneyshelton.com/repo
 
 repo_icon: "icon.png"
 
-# Archive old versions (keep last 3 APKs per app)
 archive_older: 3
