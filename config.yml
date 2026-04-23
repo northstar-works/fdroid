@@ -1,8 +1,8 @@
-repo_url: "https://fdroid.sidneyshelton.com/repo"
-repo_name: "Northstar Works"
+repo_url: "https://northstar-works.github.io/fdroid/repo"
+repo_name: "Northstar Labs"
 repo_description: |-
-  Official F-Droid repository for Northstar Works apps.
-  Add this repo in F-Droid: https://fdroid.sidneyshelton.com/repo
+  Official F-Droid repository for Northstar Labs apps.
+  Add this repo in F-Droid: https://northstar-works.github.io/fdroid/repo
 
 repo_icon: "icon.png"
 
