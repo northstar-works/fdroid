@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Northstar Labs — F-Droid Repository</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0a0e14;
+      --surface: #111720;
+      --border: #1e2d40;
+      --accent: #00c2ff;
+      --accent2: #0066ff;
+      --text: #e0eaf5;
+      --muted: #5a7a99;
+      --green: #00e676;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Syne', sans-serif;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* Grid background */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(var(--border) 1px, transparent 1px),
+        linear-gradient(90deg, var(--border) 1px, transparent 1px);
+      background-size: 48px 48px;
+      opacity: 0.35;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* Glow orb */
+    body::after {
+      content: '';
+      position: fixed;
+      top: -200px;
+      right: -200px;
+      width: 700px;
+      height: 700px;
+      background: radial-gradient(circle, rgba(0,102,255,0.12) 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .wrap {
+      position: relative;
+      z-index: 1;
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* ── Header ── */
+    header {
+      padding: 56px 0 48px;
+      border-bottom: 1px solid var(--border);
+      animation: fadeDown 0.6s ease both;
+    }
+
+    .logo-row {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+
+    .star {
+      width: 36px;
+      height: 36px;
+      flex-shrink: 0;
+    }
+
+    .org {
+      font-size: 13px;
+      font-family: 'Space Mono', monospace;
+      color: var(--muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      font-weight: 800;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      background: linear-gradient(120deg, var(--text) 40%, var(--accent));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 14px;
+    }
+
+    .tagline {
+      color: var(--muted);
+      font-size: 1rem;
+      font-family: 'Space Mono', monospace;
+      line-height: 1.6;
+    }
+
+    /* ── Add repo section ── */
+    .add-section {
+      padding: 40px 0 36px;
+      border-bottom: 1px solid var(--border);
+      animation: fadeDown 0.6s 0.1s ease both;
+    }
+
+    .section-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+
+    .add-section h2 {
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    .url-box {
+      display: flex;
+      align-items: center;
+      gap: 0;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+      max-width: 600px;
+      margin-bottom: 16px;
+      transition: border-color 0.2s;
+    }
+
+    .url-box:focus-within { border-color: var(--accent2); }
+
+    .url-box code {
+      flex: 1;
+      padding: 14px 16px;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.82rem;
+      color: var(--accent);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .copy-btn {
+      padding: 14px 20px;
+      background: var(--accent2);
+      border: none;
+      color: #fff;
+      font-family: 'Syne', sans-serif;
+      font-weight: 600;
+      font-size: 0.82rem;
+      cursor: pointer;
+      transition: background 0.15s;
+      white-space: nowrap;
+      letter-spacing: 0.02em;
+    }
+
+    .copy-btn:hover { background: var(--accent); color: #000; }
+    .copy-btn.copied { background: var(--green); color: #000; }
+
+    .steps {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .step {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      font-size: 0.9rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .step-num {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      font-family: 'Space Mono', monospace;
+      font-size: 11px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      color: var(--accent);
+      margin-top: 1px;
+    }
+
+    /* ── Apps ── */
+    .apps-section {
+      padding: 40px 0 36px;
+      border-bottom: 1px solid var(--border);
+      animation: fadeDown 0.6s 0.2s ease both;
+    }
+
+    .apps-section h2 {
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+
+    .apps-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 14px;
+    }
+
+    .app-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px;
+      transition: border-color 0.2s, transform 0.2s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .app-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--accent2), var(--accent));
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+
+    .app-card:hover { border-color: var(--accent2); transform: translateY(-2px); }
+    .app-card:hover::before { opacity: 1; }
+
+    .app-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--accent2), var(--accent));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 14px;
+      font-size: 20px;
+    }
+
+    .app-name {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .app-desc {
+      font-size: 0.82rem;
+      color: var(--muted);
+      line-height: 1.5;
+      margin-bottom: 14px;
+    }
+
+    .app-meta {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .badge {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      padding: 3px 8px;
+      border-radius: 4px;
+      background: rgba(0,194,255,0.1);
+      color: var(--accent);
+      border: 1px solid rgba(0,194,255,0.2);
+    }
+
+    /* ── Footer ── */
+    footer {
+      padding: 32px 0;
+      animation: fadeDown 0.6s 0.3s ease both;
+    }
+
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .footer-text {
+      font-family: 'Space Mono', monospace;
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    .gh-link {
+      font-family: 'Space Mono', monospace;
+      font-size: 11px;
+      color: var(--muted);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: color 0.15s;
+    }
+
+    .gh-link:hover { color: var(--text); }
+
+    @keyframes fadeDown {
+      from { opacity: 0; transform: translateY(-12px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="logo-row">
+      <svg class="star" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="18,2 22,13 34,13 24,20 28,32 18,25 8,32 12,20 2,13 14,13"
+          fill="none" stroke="#00c2ff" stroke-width="1.5" stroke-linejoin="round"/>
+        <polygon points="18,8 20.5,15 28,15 22,19.5 24.5,27 18,22.5 11.5,27 14,19.5 8,15 15.5,15"
+          fill="rgba(0,194,255,0.15)"/>
+      </svg>
+      <span class="org">Northstar Labs</span>
+    </div>
+    <h1>F-Droid Repository</h1>
+    <p class="tagline">// Android apps, distributed directly.<br>No Google Play required.</p>
+  </header>
+
+  <section class="add-section">
+    <p class="section-label">Get Started</p>
+    <h2>Add this repo to F-Droid</h2>
+
+    <div class="url-box">
+      <code id="repo-url">https://northstar-works.github.io/fdroid/repo</code>
+      <button class="copy-btn" id="copy-btn" onclick="copyUrl()">Copy</button>
+    </div>
+
+    <div class="steps">
+      <div class="step">
+        <span class="step-num">1</span>
+        <span>Install <strong>F-Droid</strong> from <a href="https://f-droid.org" style="color:var(--accent);text-decoration:none">f-droid.org</a> if you haven't already</span>
+      </div>
+      <div class="step">
+        <span class="step-num">2</span>
+        <span>Open F-Droid → Settings → Repositories → tap <strong>+</strong></span>
+      </div>
+      <div class="step">
+        <span class="step-num">3</span>
+        <span>Paste the repository URL above and tap <strong>OK</strong></span>
+      </div>
+      <div class="step">
+        <span class="step-num">4</span>
+        <span>Refresh the repository list — Northstar Labs apps will appear</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="apps-section">
+    <p class="section-label">Available Apps</p>
+    <h2>What's in this repo</h2>
+
+    <div class="apps-grid">
+      <div class="app-card">
+        <div class="app-icon">📺</div>
+        <div class="app-name">StreamVault</div>
+        <div class="app-desc">IPTV player for Android with M3U playlists, EPG, Live Sports, and Plex integration.</div>
+        <div class="app-meta">
+          <span class="badge">v5.6.10</span>
+          <span class="badge">Multimedia</span>
+        </div>
+      </div>
+
+      <div class="app-card">
+        <div class="app-icon">📡</div>
+        <div class="app-name">StreamVault TV</div>
+        <div class="app-desc">Fire TV &amp; Android TV optimized build with full D-pad navigation.</div>
+        <div class="app-meta">
+          <span class="badge">v5.6.10</span>
+          <span class="badge">TV</span>
+        </div>
+      </div>
+
+      <div class="app-card">
+        <div class="app-icon">⚙️</div>
+        <div class="app-name">StreamVault Configurator</div>
+        <div class="app-desc">Manage StreamVault settings and playlists from your Android phone or tablet.</div>
+        <div class="app-meta">
+          <span class="badge">v5.1.0</span>
+          <span class="badge">Utility</span>
+        </div>
+      </div>
+
+      <div class="app-card">
+        <div class="app-icon">🥋</div>
+        <div class="app-name">Advanced Flashcards</div>
+        <div class="app-desc">Kenpo karate technique flashcards with sync and AI-assisted card generation.</div>
+        <div class="app-meta">
+          <span class="badge">v7.4.0</span>
+          <span class="badge">Education</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-text">© 2026 Northstar Labs</span>
+      <a class="gh-link" href="https://github.com/northstar-works" target="_blank">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+        </svg>
+        github.com/northstar-works
+      </a>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+  function copyUrl() {
+    const url = document.getElementById('repo-url').textContent;
+    navigator.clipboard.writeText(url).then(() => {
+      const btn = document.getElementById('copy-btn');
+      btn.textContent = 'Copied!';
+      btn.classList.add('copied');
+      setTimeout(() => {
+        btn.textContent = 'Copy';
+        btn.classList.remove('copied');
+      }, 2000);
+    });
+  }
+</script>
+</body>
+</html>
