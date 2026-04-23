@@ -1,0 +1,50 @@
+{
+  "METADATA_VERSION": 20002,
+  "allow_disabled_algorithms": false,
+  "SVConfig-5.1.0-release.apk": {
+    "hash": "89abf05d9f6d6c09aeb8398f8cf76184fe9b04cb108c22b31496c80e4240b880",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        28
+      ],
+      [
+        "com.sidscri.svconfig.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        28
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": [],
+    "packageName": "com.sidscri.svconfig",
+    "versionCode": 9,
+    "name": "SV Config",
+    "versionName": "5.1.0",
+    "minSdkVersion": 26,
+    "targetSdkVersion": 34,
+    "sig": "4e8c90ba011d1b4a12ef9bf3c3476ace",
+    "signer": "80fe3fc1aa8e8cc6a1a796b0683a94c656659cd97c9334b17960ab2766c97f8f",
+    "size": 2412204,
+    "apkName": "SVConfig-5.1.0-release.apk",
+    "added": 1776987192.463475
+  }
+}
