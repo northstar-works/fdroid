@@ -4,6 +4,6 @@ repo_description: |-
   Official F-Droid repository for Northstar Labs apps.
   Add this repo in F-Droid: https://northstar-works.github.io/fdroid/repo
 
-repo_icon: "icon.png"
+#repo_icon: "icon.png"
 
 archive_older: 3
