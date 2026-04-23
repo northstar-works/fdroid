@@ -1,0 +1,20 @@
+Name: StreamVault
+Summary: IPTV player for Fire TV and Android
+Description: |-
+  StreamVault is a feature-rich IPTV player for Fire TV and Android devices.
+  Supports M3U playlists, EPG, Live Sports with scoreboard integration,
+  Plex integration, and a fully D-pad-navigable TV interface.
+
+Categories:
+  - Multimedia
+License: Proprietary
+AuthorName: Northstar Labs
+SourceCode: https://github.com/northstar-works/StreamVault
+IssueTracker: https://github.com/northstar-works/StreamVault/issues
+
+AutoUpdateMode: None
+UpdateCheckMode: None
+
+# Fill these in from StreamVault's build.gradle
+CurrentVersion: FILL_IN
+CurrentVersionCode: 0

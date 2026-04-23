@@ -1,0 +1,19 @@
+Name: StreamVault Configurator
+Summary: Configure StreamVault IPTV from your Android device
+Description: |-
+  StreamVault Configurator lets you manage playlists, settings, and
+  configuration for the StreamVault IPTV app directly from an Android phone
+  or tablet — no PC required.
+
+Categories:
+  - Multimedia
+License: Proprietary
+AuthorName: Northstar Labs
+SourceCode: https://github.com/northstar-works/StreamVault-Configurator-Android
+IssueTracker: https://github.com/northstar-works/StreamVault-Configurator-Android/issues
+
+AutoUpdateMode: None
+UpdateCheckMode: None
+
+CurrentVersion: 5.1.0
+CurrentVersionCode: 9
