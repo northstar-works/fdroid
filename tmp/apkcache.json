@@ -34,7 +34,7 @@
     "features": [],
     "icons_src": {},
     "icons": {},
-    "antiFeatures": [],
+    "antiFeatures": {},
     "packageName": "com.sidscri.svconfig",
     "versionCode": 9,
     "name": "SV Config",
@@ -46,5 +46,309 @@
     "size": 2412204,
     "apkName": "SVConfig-5.1.0-release.apk",
     "added": 1776987192.463475
+  },
+  "AdvancedFlashcards-7.4.0-release.apk": {
+    "hash": "672a4419864e109276af6a1378728a9b1d77e74ea5eca0ac0ab77e90e9495e05",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "com.northstarworks.advancedflashcards.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "com.northstarworks.advancedflashcards",
+    "versionCode": 46,
+    "name": "Advanced Flashcards",
+    "versionName": "7.4.0",
+    "minSdkVersion": 21,
+    "targetSdkVersion": 35,
+    "nativecode": [
+      "arm64-v8a",
+      "armeabi-v7a",
+      "x86",
+      "x86_64"
+    ],
+    "sig": "fc5327d44bd80fd0f5d1ce2a90182bdc",
+    "signer": "f081b1607bf33f5bcc9937ec1b3105d6c5bdc1dd52231fb939513c8705e1dceb",
+    "size": 14549987,
+    "apkName": "AdvancedFlashcards-7.4.0-release.apk",
+    "added": 1777054554.0
+  },
+  "SVConfig-5.1.1-release.apk": {
+    "hash": "263e3ffd97324e0bdefc0230116cc7b2afc69a9451d653fb518564a4ad4c32c6",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        28
+      ],
+      [
+        "com.sidscri.svconfig.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        28
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "com.sidscri.svconfig",
+    "versionCode": 10,
+    "name": "SV Config",
+    "versionName": "5.1.1",
+    "minSdkVersion": 26,
+    "targetSdkVersion": 34,
+    "sig": "5f21300868798549ab3ecba5f3cc54b1",
+    "signer": "bca0b31e688ef0eda254a47f32f354930908b0beac655d39e585886a377056aa",
+    "size": 2412276,
+    "apkName": "SVConfig-5.1.1-release.apk",
+    "added": 1777172617.0
+  },
+  "SVConfig-5.2.0-release.apk": {
+    "hash": "0856a4e684cd9d6d496dbec96e36600f5d3f49ece3265f317893853bd67377ab",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        28
+      ],
+      [
+        "com.sidscri.svconfig.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        28
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "com.sidscri.svconfig",
+    "versionCode": 11,
+    "name": "SV Config",
+    "versionName": "5.2.0",
+    "minSdkVersion": 26,
+    "targetSdkVersion": 34,
+    "sig": "6f8618dc738c18d1e7938232c14de565",
+    "signer": "34eace0b0295be2c0d4427901d5dac42beb7ab17059babb6c56be223b9ba2301",
+    "size": 2412932,
+    "apkName": "SVConfig-5.2.0-release.apk",
+    "added": 1777263163.0
+  },
+  "StreamVault-5.10.8-mobile-release.apk": {
+    "hash": "c25d5620a2416a0cff2b57d50edc654e6c2d8d447b8781a16b869be31635aa35",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.CHANGE_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        28
+      ],
+      [
+        "com.northstarworks.streamvault.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        28
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "com.northstarworks.streamvault",
+    "versionCode": 188,
+    "name": "StreamVault",
+    "versionName": "5.10.8",
+    "minSdkVersion": 24,
+    "targetSdkVersion": 34,
+    "sig": "7c809f177dc361b8e3b4f61d544fff3a",
+    "signer": "9540fe05352a4498c606fd30fceb12a99fb0084b5a96e72141f4a3caf5800e87",
+    "size": 6038444,
+    "apkName": "StreamVault-5.10.8-mobile-release.apk",
+    "added": 1777397340.0
+  },
+  "StreamVault-5.8.4-tv-release.apk": {
+    "hash": "b0024c46f0d83c232cf54db870ba4b1caf6331b43b1856a40ae5bccc5e1dcb2c",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.CHANGE_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        28
+      ],
+      [
+        "com.northstarworks.streamvault.tv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        28
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [
+      "android.software.leanback"
+    ],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "com.northstarworks.streamvault.tv",
+    "versionCode": 169,
+    "name": "StreamVault",
+    "versionName": "5.8.4-tv",
+    "minSdkVersion": 24,
+    "targetSdkVersion": 34,
+    "sig": "7c809f177dc361b8e3b4f61d544fff3a",
+    "signer": "9540fe05352a4498c606fd30fceb12a99fb0084b5a96e72141f4a3caf5800e87",
+    "size": 5668190,
+    "apkName": "StreamVault-5.8.4-tv-release.apk",
+    "added": 1777001083.0
+  },
+  "com.northstarlabs.fantag_1.apk": {
+    "hash": "f3300fd5315cd55b81fece24c791f5784e15136c12142335aa0d0221f06dddec",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.CAMERA",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        32
+      ],
+      [
+        "android.permission.READ_MEDIA_IMAGES",
+        null
+      ],
+      [
+        "com.northstarlabs.fantag.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "com.northstarlabs.fantag",
+    "versionCode": 2,
+    "name": "FANTAG",
+    "versionName": "1.0.1",
+    "minSdkVersion": 26,
+    "targetSdkVersion": 35,
+    "sig": "37e93965387fc11eca9d08dfc46f43ab",
+    "signer": "ec229ffd349897f965356d5b6733169cb59c5202885c0813021c1e3f261bade9",
+    "size": 4963433,
+    "apkName": "com.northstarlabs.fantag_1.apk",
+    "added": 1777435810.859125
+  },
+  "categories.txt": {
+    "name": "categories",
+    "apkName": "categories.txt",
+    "hash": "c09c370f84aca9c7556325af097998869942369159bf2182dfc87cda54cb8385",
+    "hashType": "sha256",
+    "ipfsCIDv1": null,
+    "versionCode": 0,
+    "versionName": "c09c370",
+    "packageName": "c09c370f84aca9c7556325af097998869942369159bf2182dfc87cda54cb8385",
+    "size": 37,
+    "added": 1777435810.859923
   }
 }
