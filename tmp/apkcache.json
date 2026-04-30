@@ -410,7 +410,7 @@
     "added": 1777483053.0
   },
   "com.northstarlabs.fantag_3.apk": {
-    "hash": "f3300fd5315cd55b81fece24c791f5784e15136c12142335aa0d0221f06dddec",
+    "hash": "ce69e2001c1d71d43c2529f78914aac43e258176d9b2effacef3bce5210a7ac2",
     "hashType": "sha256",
     "uses-permission": [
       [
@@ -444,15 +444,15 @@
     "icons": {},
     "antiFeatures": {},
     "packageName": "com.northstarlabs.fantag",
-    "versionCode": 2,
+    "versionCode": 3,
     "name": "FANTAG",
-    "versionName": "1.0.1",
+    "versionName": "2.0.2",
     "minSdkVersion": 26,
     "targetSdkVersion": 35,
     "sig": "37e93965387fc11eca9d08dfc46f43ab",
     "signer": "ec229ffd349897f965356d5b6733169cb59c5202885c0813021c1e3f261bade9",
-    "size": 4963433,
+    "size": 4978789,
     "apkName": "com.northstarlabs.fantag_3.apk",
-    "added": 1777520073.305793
+    "added": 1777520073.0
   }
 }
