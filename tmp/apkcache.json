@@ -349,6 +349,110 @@
     "versionName": "c09c370",
     "packageName": "c09c370f84aca9c7556325af097998869942369159bf2182dfc87cda54cb8385",
     "size": 37,
-    "added": 1777435810.859923
+    "added": 1777435810.0
+  },
+  "StreamVault-5.11.0-mobile-release.apk": {
+    "hash": "dbcf3dd62bbcffc1a745602c74e158c055fad102d80b47bf2222854419c2d864",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.CHANGE_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        28
+      ],
+      [
+        "com.northstarworks.streamvault.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        28
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "com.northstarworks.streamvault",
+    "versionCode": 189,
+    "name": "StreamVault",
+    "versionName": "5.11.0",
+    "minSdkVersion": 24,
+    "targetSdkVersion": 34,
+    "sig": "7c809f177dc361b8e3b4f61d544fff3a",
+    "signer": "9540fe05352a4498c606fd30fceb12a99fb0084b5a96e72141f4a3caf5800e87",
+    "size": 6039208,
+    "apkName": "StreamVault-5.11.0-mobile-release.apk",
+    "added": 1777483053.0
+  },
+  "com.northstarlabs.fantag_3.apk": {
+    "hash": "f3300fd5315cd55b81fece24c791f5784e15136c12142335aa0d0221f06dddec",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.CAMERA",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        32
+      ],
+      [
+        "android.permission.READ_MEDIA_IMAGES",
+        null
+      ],
+      [
+        "com.northstarlabs.fantag.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "com.northstarlabs.fantag",
+    "versionCode": 2,
+    "name": "FANTAG",
+    "versionName": "1.0.1",
+    "minSdkVersion": 26,
+    "targetSdkVersion": 35,
+    "sig": "37e93965387fc11eca9d08dfc46f43ab",
+    "signer": "ec229ffd349897f965356d5b6733169cb59c5202885c0813021c1e3f261bade9",
+    "size": 4963433,
+    "apkName": "com.northstarlabs.fantag_3.apk",
+    "added": 1777520073.305793
   }
 }
