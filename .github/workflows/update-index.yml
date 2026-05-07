@@ -5,6 +5,7 @@ on:
     branches: [ main ]
     paths:
       - 'repo/**.apk'
+      - 'metadata/**.yml'
   workflow_dispatch:
 
 permissions:
