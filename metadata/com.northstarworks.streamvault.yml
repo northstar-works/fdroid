@@ -1,9 +1,12 @@
 Name: StreamVault
-Summary: IPTV player for Fire TV and Android
+Summary: ITV streaming player for Fire TV and Android
 Description: |-
-  StreamVault is a feature-rich IPTV player for Fire TV and Android devices.
-  Supports M3U playlists, EPG, Live Sports with scoreboard integration,
-  Plex integration, and a fully D-pad-navigable TV interface.
+    StreamVault is a universal streaming media player for Fire TV and Android.
+    Organise and play live channels (ITV), Plex libraries, IP cameras (iCam),
+    local files, network shares, and HDHomeRun tuners in one app.
+    Full EPG guide, Live Sports with ESPN scoreboard integration, DVR recording,
+    timeshift, and complete D-pad navigation for remote control.
+    No accounts. No tracking.
 
 Categories:
   - Multimedia

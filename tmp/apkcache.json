@@ -130,7 +130,7 @@
     "added": 1777172617.0
   },
   "SVConfig-5.2.0-release.apk": {
-    "hash": "0856a4e684cd9d6d496dbec96e36600f5d3f49ece3265f317893853bd67377ab",
+    "hash": "cd217bbac79829aa791476bf3997d853d52891188db205d57c8ad031529d925c",
     "hashType": "sha256",
     "uses-permission": [
       [
@@ -169,8 +169,8 @@
     "versionName": "5.2.0",
     "minSdkVersion": 26,
     "targetSdkVersion": 34,
-    "sig": "6f8618dc738c18d1e7938232c14de565",
-    "signer": "34eace0b0295be2c0d4427901d5dac42beb7ab17059babb6c56be223b9ba2301",
+    "sig": "6968378d323984bcfddcd85b85a0cc1b",
+    "signer": "61316802a2afd3b1e627a13246c9accb2d4da7674e2e75ee3567df81de13f0b8",
     "size": 2412932,
     "apkName": "SVConfig-5.2.0-release.apk",
     "added": 1777263163.0
@@ -454,5 +454,197 @@
     "size": 4978789,
     "apkName": "com.northstarlabs.fantag_3.apk",
     "added": 1777520073.0
+  },
+  "StreamVault-5.13.3-mobile-release.apk": {
+    "hash": "ad036b4a2993679e2828bdb65ea9bc1b1f54159abb13ffc6452d0818d511a5bc",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.CHANGE_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        28
+      ],
+      [
+        "com.northstarworks.streamvault.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        28
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "com.northstarworks.streamvault",
+    "versionCode": 198,
+    "name": "StreamVault",
+    "versionName": "5.13.3",
+    "minSdkVersion": 24,
+    "targetSdkVersion": 34,
+    "sig": "7c809f177dc361b8e3b4f61d544fff3a",
+    "signer": "9540fe05352a4498c606fd30fceb12a99fb0084b5a96e72141f4a3caf5800e87",
+    "size": 6123276,
+    "apkName": "StreamVault-5.13.3-mobile-release.apk",
+    "added": 1777624654.0
+  },
+  "com.northstarlabs.fantag_4.apk": {
+    "hash": "ce69e2001c1d71d43c2529f78914aac43e258176d9b2effacef3bce5210a7ac2",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.CAMERA",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        32
+      ],
+      [
+        "android.permission.READ_MEDIA_IMAGES",
+        null
+      ],
+      [
+        "com.northstarlabs.fantag.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "com.northstarlabs.fantag",
+    "versionCode": 3,
+    "name": "FANTAG",
+    "versionName": "2.0.2",
+    "minSdkVersion": 26,
+    "targetSdkVersion": 35,
+    "sig": "37e93965387fc11eca9d08dfc46f43ab",
+    "signer": "ec229ffd349897f965356d5b6733169cb59c5202885c0813021c1e3f261bade9",
+    "size": 4978789,
+    "apkName": "com.northstarlabs.fantag_4.apk",
+    "added": 1777789622.97671
+  },
+  "repo.zip": {
+    "name": "repo",
+    "apkName": "repo.zip",
+    "hash": "68516176ed6501ec852032884d51d3901fd8cf828ee22ba81a49b6b9ae4cd0fb",
+    "hashType": "sha256",
+    "ipfsCIDv1": null,
+    "versionCode": 0,
+    "versionName": "6851617",
+    "packageName": "68516176ed6501ec852032884d51d3901fd8cf828ee22ba81a49b6b9ae4cd0fb",
+    "size": 118258,
+    "added": 1778566074.482867
+  },
+  "SVConfig-6.0.0-release.apk": {
+    "hash": "e0f908f5f8098dc9685bf83211b51f5d1afd90e40242742fcbb671066ebb5f92",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        28
+      ],
+      [
+        "com.sidscri.svconfig.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        28
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "com.sidscri.svconfig",
+    "versionCode": 13,
+    "name": "SV Config",
+    "versionName": "6.0.0",
+    "minSdkVersion": 26,
+    "targetSdkVersion": 34,
+    "sig": "d8b216571f45bfa11d6c08c76106c968",
+    "signer": "0bdaec210ef4943598087d72bcaf882519dcf426107162e0bc8e8891244c01d3",
+    "size": 2416144,
+    "apkName": "SVConfig-6.0.0-release.apk",
+    "added": 1778100906.0
+  },
+  "com.sidscri.serverdashboardviewer_7.apk": {
+    "hash": "e7fa858f0473cc93ce10b30721d13e33a626a38903ded1c0b0036f4867389758",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "com.sidscri.serverdashboardviewer",
+    "versionCode": 7,
+    "name": "Server Dashboard",
+    "versionName": "1.0.6",
+    "minSdkVersion": 26,
+    "targetSdkVersion": 35,
+    "sig": "07f3d5aae0f7324695f12fba98971e37",
+    "signer": "faab49613d3650ce8272c90cb59ba89a7a0600160f59880e752fba7112b53183",
+    "size": 454316,
+    "apkName": "com.sidscri.serverdashboardviewer_7.apk",
+    "added": 1778599086.791181
   }
 }

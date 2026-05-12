@@ -1,0 +1,67 @@
+{
+  "repo": {
+    "timestamp": 1778599089000,
+    "categories": {
+      "System": {
+        "name": {
+          "en-US": "System"
+        }
+      }
+    }
+  },
+  "packages": {
+    "com.sidscri.serverdashboardviewer": {
+      "metadata": {
+        "added": 1778599086000,
+        "categories": [
+          "System"
+        ],
+        "lastUpdated": 1778599086000,
+        "license": "Proprietary",
+        "authorName": "Northstar Labs",
+        "authorWebSite": "https://sidneyshelton.com",
+        "name": {
+          "en-US": "Server Dashboard Viewer"
+        },
+        "summary": {
+          "en-US": "Home server dashboard viewer for Northstar Labs"
+        },
+        "description": {
+          "en-US": "A WebView-based Android app for viewing the Northstar Labs\nself-hosted server dashboard on your local network."
+        },
+        "preferredSigner": "faab49613d3650ce8272c90cb59ba89a7a0600160f59880e752fba7112b53183"
+      },
+      "versions": {
+        "e7fa858f0473cc93ce10b30721d13e33a626a38903ded1c0b0036f4867389758": {
+          "added": 1778599086000,
+          "file": {
+            "name": "/com.sidscri.serverdashboardviewer_7.apk",
+            "sha256": "e7fa858f0473cc93ce10b30721d13e33a626a38903ded1c0b0036f4867389758",
+            "size": 454316
+          },
+          "manifest": {
+            "versionName": "1.0.6",
+            "versionCode": 7,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "faab49613d3650ce8272c90cb59ba89a7a0600160f59880e752fba7112b53183"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+Categories:
+  - System
+License: Proprietary
+AuthorName: Northstar Labs
+AuthorWebSite: https://sidneyshelton.com
+Name: Server Dashboard Viewer
+Summary: Home server dashboard viewer for Northstar Labs
+Description: |-
+  A WebView-based Android app for viewing the Northstar Labs
+  self-hosted server dashboard on your local network.
+
+RepoType: git
+Repo: https://github.com/northstar-works/server-dashboard-android
+
+Builds: []
+
+AutoUpdateMode: None
+UpdateCheckMode: None
+CurrentVersion: 1.0.9
+CurrentVersionCode: 9
