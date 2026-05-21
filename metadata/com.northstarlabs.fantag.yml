@@ -17,20 +17,20 @@ Description: |-
 
   Current target:
   * Fantag web/backend: v3.3.0 build 71
-  * Android wrapper: v3.3.0-b71
+  * Android wrapper: v3.3.0
   * Android versionCode: 71
 
 RepoType: git
 Repo: https://github.com/northstar-works/fantag-android
 
 Builds:
-  - versionName: 3.3.0-b71
+  - versionName: 3.3.0
     versionCode: 71
     commit: main
     gradle:
       - yes
 
-  - versionName: 3.2.9-b66-stable-no-push
+  - versionName: 3.2.9-b66
     versionCode: 66
     commit: main
     gradle:
