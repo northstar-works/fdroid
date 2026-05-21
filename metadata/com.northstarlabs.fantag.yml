@@ -16,16 +16,16 @@ Description: |-
   Default server URL: http://sidscri.from-tx.com:8010
 
   Current target:
-  * Fantag web/backend: v3.3.0 build 70
-  * Android wrapper: v3.3.0-b70
-  * Android versionCode: 70
+  * Fantag web/backend: v3.3.0 build 71
+  * Android wrapper: v3.3.0-b71
+  * Android versionCode: 71
 
 RepoType: git
 Repo: https://github.com/northstar-works/fantag-android
 
 Builds:
-  - versionName: 3.3.0-b79-stable-no-push
-    versionCode: 80
+  - versionName: 3.3.0-b71
+    versionCode: 71
     commit: main
     gradle:
       - yes
@@ -39,5 +39,5 @@ Builds:
 AutoUpdateMode: None
 UpdateCheckMode: None
 
-CurrentVersion: 3.3.0-b79-stable-no-push
-CurrentVersionCode: 80
+CurrentVersion: 3.3.0-b71
+CurrentVersionCode: 71
