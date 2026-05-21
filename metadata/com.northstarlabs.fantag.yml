@@ -15,29 +15,11 @@ Description: |-
   This private Android build is a native WebView wrapper for your FANTAG web UI.
   Default server URL: http://sidscri.from-tx.com:8010
 
-  Current target:
-  * Fantag web/backend: v3.3.0 build 71
-  * Android wrapper: v3.3.0
-  * Android versionCode: 71
-
 RepoType: git
 Repo: https://github.com/northstar-works/fantag-android
-
-Builds:
-  - versionName: 3.3.0
-    versionCode: 71
-    commit: main
-    gradle:
-      - yes
-
-  - versionName: 3.2.9-b66
-    versionCode: 66
-    commit: main
-    gradle:
-      - yes
 
 AutoUpdateMode: None
 UpdateCheckMode: None
 
-CurrentVersion: 3.3.0-b71
-CurrentVersionCode: 71
+CurrentVersion: 3.3.0-b82
+CurrentVersionCode: 82
