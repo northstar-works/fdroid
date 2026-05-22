@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1778599086000,
+    "timestamp": 1779410413000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -17,7 +17,7 @@
           "Multimedia"
         ],
         "issueTracker": "https://github.com/northstar-works/StreamVault-Configurator-Android/issues",
-        "lastUpdated": 1778100906000,
+        "lastUpdated": 1779406795000,
         "license": "Proprietary",
         "sourceCode": "https://github.com/northstar-works/StreamVault-Configurator-Android",
         "authorName": "Northstar Labs",

@@ -15,7 +15,7 @@ Description: |-
   to your self-hosted FANTAG server.
 
   This private Android build is a native WebView wrapper for your FANTAG web UI.
-  Default server URL: http://sidscri.from-tx.com:8010
+  Default server URL: https://fantag.sidneyshelton.com/
 
 RepoType: git
 Repo: https://github.com/northstar-works/fantag-android
@@ -23,5 +23,5 @@ Repo: https://github.com/northstar-works/fantag-android
 AutoUpdateMode: None
 UpdateCheckMode: None
 
-CurrentVersion: 3.3.0-b85
-CurrentVersionCode: 85
+CurrentVersion: 2.0.1-b9
+CurrentVersionCode: 87

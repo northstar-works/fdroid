@@ -1,1 +1,216 @@
-{"repo": {"timestamp": 1779406858000, "categories": {"fdroid": null}}, "packages": {"c09c370f84aca9c7556325af097998869942369159bf2182dfc87cda54cb8385": null, "com.northstarlabs.fantag": {"metadata": {"added": 1779406796000, "issueTracker": "https://github.com/northstar-works/fantag-android/issues", "lastUpdated": 1779406796000, "license": "Proprietary", "sourceCode": "https://github.com/northstar-works/fantag-android", "description": {"en-US": "FANTAG is a personal fantasy baseball roster management tool that connects\nto your self-hosted FANTAG server.\n\nThis private Android build is a native WebView wrapper for your FANTAG web UI.\nDefault server URL: http://sidscri.from-tx.com:8010"}, "preferredSigner": "024a6e37a9b3339df715717916572cff9be8324df3cb5eaedd5667cf0e0800b0"}, "versions": {"ce69e2001c1d71d43c2529f78914aac43e258176d9b2effacef3bce5210a7ac2": null, "2d3f60b5ad6e5b01702dd730c5d8349f6829464c5b962ef93bb862da631bc3e4": {"added": 1779406796000, "file": {"name": "/com.northstarlabs.fantag_85.apk", "sha256": "2d3f60b5ad6e5b01702dd730c5d8349f6829464c5b962ef93bb862da631bc3e4", "size": 5077526}, "manifest": {"versionName": "3.3.0-b85", "versionCode": 85, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["024a6e37a9b3339df715717916572cff9be8324df3cb5eaedd5667cf0e0800b0"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.CAMERA"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.READ_MEDIA_IMAGES"}, {"name": "com.northstarlabs.fantag.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}}}}, "com.northstarworks.streamvault": {"metadata": {"added": 1779406795000, "lastUpdated": 1779406795000}, "versions": {"ad036b4a2993679e2828bdb65ea9bc1b1f54159abb13ffc6452d0818d511a5bc": null, "f0465f46fbfa9786a5310cabc4f10cd868ff9e51a1126889e6aaa3879127d88a": {"added": 1779406795000, "file": {"name": "/StreamVault-6.4.2-mobile-release.apk", "sha256": "f0465f46fbfa9786a5310cabc4f10cd868ff9e51a1126889e6aaa3879127d88a", "size": 10174322}, "manifest": {"versionName": "6.4.2", "versionCode": 269, "usesSdk": {"minSdkVersion": 24, "targetSdkVersion": 35}, "signer": {"sha256": ["9540fe05352a4498c606fd30fceb12a99fb0084b5a96e72141f4a3caf5800e87"]}, "usesPermission": [{"name": "com.android.vending.BILLING"}, {"name": "android.permission.INTERNET"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.ACCESS_WIFI_STATE"}, {"name": "android.permission.CHANGE_WIFI_STATE"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.WRITE_EXTERNAL_STORAGE", "maxSdkVersion": 28}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.READ_MEDIA_VIDEO"}, {"name": "com.northstarworks.streamvault.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}}}, "com.sidscri.svconfig": {"metadata": {"lastUpdated": 1779406795000}, "versions": {"263e3ffd97324e0bdefc0230116cc7b2afc69a9451d653fb518564a4ad4c32c6": null, "5b6d80b3ee605d4a4597e196e40512242220d8caa3427cd0a3532c3ea91527ce": {"added": 1779406795000, "file": {"name": "/SVConfig-6.1.0-release.apk", "sha256": "5b6d80b3ee605d4a4597e196e40512242220d8caa3427cd0a3532c3ea91527ce", "size": 2418128}, "manifest": {"versionName": "6.1.0", "versionCode": 14, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 34}, "signer": {"sha256": ["a0d36a10b589e7598c1c77c6b43f39cf51237f5f919675e7431a061abadb14ce"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.ACCESS_WIFI_STATE"}, {"name": "android.permission.WRITE_EXTERNAL_STORAGE", "maxSdkVersion": 28}, {"name": "com.sidscri.svconfig.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 28}]}, "releaseChannels": ["Beta"]}}}}}
+{
+  "repo": {
+    "timestamp": 1779410416000
+  },
+  "packages": {
+    "c09c370f84aca9c7556325af097998869942369159bf2182dfc87cda54cb8385": null,
+    "com.northstarlabs.fantag": {
+      "metadata": {
+        "added": 1779406796000,
+        "issueTracker": "https://github.com/northstar-works/fantag-android/issues",
+        "lastUpdated": 1779406796000,
+        "license": "Proprietary",
+        "sourceCode": "https://github.com/northstar-works/fantag-android",
+        "description": {
+          "en-US": "FANTAG is a personal fantasy baseball roster management tool that connects\nto your self-hosted FANTAG server.\n\nThis private Android build is a native WebView wrapper for your FANTAG web UI.\nDefault server URL: https://fantag.sidneyshelton.com/"
+        },
+        "preferredSigner": "024a6e37a9b3339df715717916572cff9be8324df3cb5eaedd5667cf0e0800b0"
+      },
+      "versions": {
+        "ce69e2001c1d71d43c2529f78914aac43e258176d9b2effacef3bce5210a7ac2": null,
+        "2d3f60b5ad6e5b01702dd730c5d8349f6829464c5b962ef93bb862da631bc3e4": {
+          "added": 1779406796000,
+          "file": {
+            "name": "/com.northstarlabs.fantag_85.apk",
+            "sha256": "2d3f60b5ad6e5b01702dd730c5d8349f6829464c5b962ef93bb862da631bc3e4",
+            "size": 5077526
+          },
+          "manifest": {
+            "versionName": "3.3.0-b85",
+            "versionCode": 85,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "024a6e37a9b3339df715717916572cff9be8324df3cb5eaedd5667cf0e0800b0"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "com.northstarlabs.fantag.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.northstarworks.streamvault": {
+      "metadata": {
+        "added": 1779406795000,
+        "lastUpdated": 1779406795000
+      },
+      "versions": {
+        "ad036b4a2993679e2828bdb65ea9bc1b1f54159abb13ffc6452d0818d511a5bc": null,
+        "f0465f46fbfa9786a5310cabc4f10cd868ff9e51a1126889e6aaa3879127d88a": {
+          "added": 1779406795000,
+          "file": {
+            "name": "/StreamVault-6.4.2-mobile-release.apk",
+            "sha256": "f0465f46fbfa9786a5310cabc4f10cd868ff9e51a1126889e6aaa3879127d88a",
+            "size": 10174322
+          },
+          "manifest": {
+            "versionName": "6.4.2",
+            "versionCode": 269,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "9540fe05352a4498c606fd30fceb12a99fb0084b5a96e72141f4a3caf5800e87"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "com.northstarworks.streamvault.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        }
+      }
+    },
+    "com.sidscri.svconfig": {
+      "metadata": {
+        "lastUpdated": 1779406795000
+      },
+      "versions": {
+        "263e3ffd97324e0bdefc0230116cc7b2afc69a9451d653fb518564a4ad4c32c6": null,
+        "5b6d80b3ee605d4a4597e196e40512242220d8caa3427cd0a3532c3ea91527ce": {
+          "added": 1779406795000,
+          "file": {
+            "name": "/SVConfig-6.1.0-release.apk",
+            "sha256": "5b6d80b3ee605d4a4597e196e40512242220d8caa3427cd0a3532c3ea91527ce",
+            "size": 2418128
+          },
+          "manifest": {
+            "versionName": "6.1.0",
+            "versionCode": 14,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "a0d36a10b589e7598c1c77c6b43f39cf51237f5f919675e7431a061abadb14ce"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "com.sidscri.svconfig.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        }
+      }
+    },
+    "e1880e0c4381c5d5ab183b9705f542f10f238c658efa7a2a83e0494b19c4e541": {
+      "metadata": {
+        "added": 1779410162000,
+        "categories": [
+          "fdroid"
+        ],
+        "lastUpdated": 1779410162000,
+        "name": {
+          "en-US": "categories"
+        }
+      },
+      "versions": {
+        "e1880e0c4381c5d5ab183b9705f542f10f238c658efa7a2a83e0494b19c4e541": {
+          "added": 1779410162000,
+          "file": {
+            "name": "/categories.txt",
+            "sha256": "e1880e0c4381c5d5ab183b9705f542f10f238c658efa7a2a83e0494b19c4e541",
+            "size": 60
+          },
+          "manifest": {
+            "versionName": "e1880e0",
+            "versionCode": 0
+          }
+        }
+      }
+    }
+  }
+}

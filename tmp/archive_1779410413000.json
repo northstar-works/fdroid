@@ -1,6 +1,20 @@
 {
   "repo": {
-    "timestamp": 1778599086000,
+    "name": {
+      "en-US": "My First F-Droid Archive Demo"
+    },
+    "description": {
+      "en-US": "These are the apps that have been archived from the main repo."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/icon.png",
+        "sha256": "5a8e43d0d41c7c5c0cab739148da3bf669e3191a85d12b37048b25fece4e7e34",
+        "size": 854
+      }
+    },
+    "address": "https://northstar-works.github.io/fdroid/archive",
+    "timestamp": 1779410413000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -17,7 +31,7 @@
           "Multimedia"
         ],
         "issueTracker": "https://github.com/northstar-works/StreamVault-Configurator-Android/issues",
-        "lastUpdated": 1778100906000,
+        "lastUpdated": 1779406795000,
         "license": "Proprietary",
         "sourceCode": "https://github.com/northstar-works/StreamVault-Configurator-Android",
         "authorName": "Northstar Labs",

@@ -1,10 +1,11 @@
 {
   "repo": {
-    "timestamp": 1778599086000
+    "timestamp": 1779410413000
   },
   "packages": {
     "com.sidscri.svconfig": {
       "metadata": {
+        "lastUpdated": 1779406795000,
         "preferredSigner": "80fe3fc1aa8e8cc6a1a796b0683a94c656659cd97c9334b17960ab2766c97f8f"
       },
       "versions": {
