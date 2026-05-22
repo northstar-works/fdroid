@@ -1,12 +1,10 @@
 Categories:
   - Sports & Health
 
-License: Proprietary
+License: proprietary
 
 AuthorName: Northstar Labs
 AuthorWebSite: https://github.com/northstar-works
-SourceCode: https://github.com/northstar-works/fantag-android
-IssueTracker: https://github.com/northstar-works/fantag-android/issues
 
 Name: FANTAG
 Summary: Fantasy baseball roster tracker for your self-hosted FANTAG server
@@ -16,6 +14,7 @@ Description: |-
 
   This private Android build is a native WebView wrapper for your FANTAG web UI.
   Default server URL: https://fantag.sidneyshelton.com/
+  Web/Docker target version: 3.4.0-b68
 
 RepoType: git
 Repo: https://github.com/northstar-works/fantag-android
