@@ -19,6 +19,11 @@ Description: |-
 RepoType: git
 Repo: https://github.com/northstar-works/fantag-android
 
+AllowedAPKSigningKeys:
+  - cba754a3caaae86a30bcfc5af4ac73b9b17ddc1f15d37c91734ffe1b8a9a87b1
+  - f4517e7b90f7e88b582ecf26889d81b1dc952c0c15398d52654ffce6683c6bb8
+  - 2bef493ee16b1699bee552637a83d3bcc2580457d6f8f7846d652f2918d42c24
+
 AutoUpdateMode: None
 UpdateCheckMode: None
 

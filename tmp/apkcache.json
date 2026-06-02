@@ -349,7 +349,7 @@
     "versionName": "e1880e0",
     "packageName": "e1880e0c4381c5d5ab183b9705f542f10f238c658efa7a2a83e0494b19c4e541",
     "size": 60,
-    "added": 1779410162.694739
+    "added": 1779410162.0
   },
   "StreamVault-5.11.0-mobile-release.apk": {
     "hash": "dbcf3dd62bbcffc1a745602c74e158c055fad102d80b47bf2222854419c2d864",
@@ -804,5 +804,318 @@
     "size": 5077526,
     "apkName": "com.northstarlabs.fantag_85.apk",
     "added": 1779406796.0
+  },
+  "StreamVault-6.4.3-mobile-release.apk": {
+    "hash": "0c07a96ff9122f8459bfd260ab41dc240c79281ec2b00a443b218f4f15a64ab6",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "com.android.vending.BILLING",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.CHANGE_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        28
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        32
+      ],
+      [
+        "android.permission.READ_MEDIA_VIDEO",
+        null
+      ],
+      [
+        "com.northstarworks.streamvault.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "com.northstarworks.streamvault",
+    "versionCode": 270,
+    "name": "StreamVault",
+    "versionName": "6.4.3",
+    "minSdkVersion": 24,
+    "targetSdkVersion": 35,
+    "sig": "7c809f177dc361b8e3b4f61d544fff3a",
+    "signer": "9540fe05352a4498c606fd30fceb12a99fb0084b5a96e72141f4a3caf5800e87",
+    "size": 10234983,
+    "apkName": "StreamVault-6.4.3-mobile-release.apk",
+    "added": 1780436687.061209
+  },
+  "StreamVault-6.4.3-tv-release.apk": {
+    "hash": "b1eea6a9fb9db20c2e33fb85c9bec6bd0dcdc3176bc18a9c72871d887ddc114e",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.CHANGE_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        28
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        32
+      ],
+      [
+        "android.permission.READ_MEDIA_VIDEO",
+        null
+      ],
+      [
+        "com.northstarworks.streamvault.tv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [
+      "android.software.leanback"
+    ],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "com.northstarworks.streamvault.tv",
+    "versionCode": 270,
+    "name": "StreamVault TV",
+    "versionName": "6.4.3-tv",
+    "minSdkVersion": 24,
+    "targetSdkVersion": 35,
+    "sig": "b83905a5715702393f3da835d6527989",
+    "signer": "1c736e0a59ce89e4820a8bca9924f8d2381acd5f9103c71a869ca7592568a1f8",
+    "size": 10540602,
+    "apkName": "StreamVault-6.4.3-tv-release.apk",
+    "added": 1780436687.438232
+  },
+  "com.northstarlabs.fantag_89.apk": {
+    "hash": "70c77003fbcc5c8b2765b66b61c9a9d85fe5e21e6122341f5ff59448f9912c7e",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.CAMERA",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        32
+      ],
+      [
+        "android.permission.READ_MEDIA_IMAGES",
+        null
+      ],
+      [
+        "com.northstarlabs.fantag.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {
+      "240": "res/mipmap-hdpi-v4/ic_launcher.png",
+      "160": "res/mipmap-mdpi-v4/ic_launcher.png",
+      "320": "res/mipmap-xhdpi-v4/ic_launcher.png",
+      "480": "res/mipmap-xxhdpi-v4/ic_launcher.png",
+      "640": "res/mipmap-xxxhdpi-v4/ic_launcher.png",
+      "-1": "res/mipmap-mdpi-v4/ic_launcher.png"
+    },
+    "icons": {
+      "640": "com.northstarlabs.fantag.89.png",
+      "480": "com.northstarlabs.fantag.89.png",
+      "320": "com.northstarlabs.fantag.89.png",
+      "240": "com.northstarlabs.fantag.89.png",
+      "160": "com.northstarlabs.fantag.89.png",
+      "0": "com.northstarlabs.fantag.89.png"
+    },
+    "antiFeatures": {},
+    "packageName": "com.northstarlabs.fantag",
+    "versionCode": 89,
+    "name": "FANTAG",
+    "versionName": "2.0.3-b11",
+    "minSdkVersion": 26,
+    "targetSdkVersion": 35,
+    "sig": "3378e6337980b0a6387cdf488e7f289f",
+    "signer": "2bef493ee16b1699bee552637a83d3bcc2580457d6f8f7846d652f2918d42c24",
+    "size": 6474690,
+    "apkName": "com.northstarlabs.fantag_89.apk",
+    "icon": "com.northstarlabs.fantag.89.png",
+    "added": 1779821192.0
+  },
+  "com.northstarlabs.fantag_91.apk": {
+    "hash": "43c7869b1fa782d9a71211e6a04d3bcad47206b122ecc09c2f7210d35454acc6",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.CAMERA",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        32
+      ],
+      [
+        "android.permission.READ_MEDIA_IMAGES",
+        null
+      ],
+      [
+        "com.northstarlabs.fantag.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {
+      "240": "res/mipmap-hdpi-v4/ic_launcher.png",
+      "160": "res/mipmap-mdpi-v4/ic_launcher.png",
+      "320": "res/mipmap-xhdpi-v4/ic_launcher.png",
+      "480": "res/mipmap-xxhdpi-v4/ic_launcher.png",
+      "640": "res/mipmap-xxxhdpi-v4/ic_launcher.png",
+      "-1": "res/mipmap-mdpi-v4/ic_launcher.png"
+    },
+    "icons": {
+      "640": "com.northstarlabs.fantag.91.png",
+      "480": "com.northstarlabs.fantag.91.png",
+      "320": "com.northstarlabs.fantag.91.png",
+      "240": "com.northstarlabs.fantag.91.png",
+      "160": "com.northstarlabs.fantag.91.png",
+      "0": "com.northstarlabs.fantag.91.png"
+    },
+    "antiFeatures": {},
+    "packageName": "com.northstarlabs.fantag",
+    "versionCode": 91,
+    "name": "FANTAG",
+    "versionName": "2.0.5-b13",
+    "minSdkVersion": 26,
+    "targetSdkVersion": 35,
+    "sig": "a635ad64e3da529e328ba8c5f97da238",
+    "signer": "f4517e7b90f7e88b582ecf26889d81b1dc952c0c15398d52654ffce6683c6bb8",
+    "size": 6477363,
+    "apkName": "com.northstarlabs.fantag_91.apk",
+    "icon": "com.northstarlabs.fantag.91.png",
+    "added": 1779828899.0
+  },
+  "com.northstarlabs.fantag_92.apk": {
+    "hash": "42e5bd632ff5790afa7577a40192e138c24e65ab9d57e9b1d3a9cb5153697d97",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.CAMERA",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        32
+      ],
+      [
+        "android.permission.READ_MEDIA_IMAGES",
+        null
+      ],
+      [
+        "com.northstarlabs.fantag.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {
+      "240": "res/mipmap-hdpi-v4/ic_launcher.png",
+      "160": "res/mipmap-mdpi-v4/ic_launcher.png",
+      "320": "res/mipmap-xhdpi-v4/ic_launcher.png",
+      "480": "res/mipmap-xxhdpi-v4/ic_launcher.png",
+      "640": "res/mipmap-xxxhdpi-v4/ic_launcher.png",
+      "-1": "res/mipmap-mdpi-v4/ic_launcher.png"
+    },
+    "icons": {
+      "640": "com.northstarlabs.fantag.92.png",
+      "480": "com.northstarlabs.fantag.92.png",
+      "320": "com.northstarlabs.fantag.92.png",
+      "240": "com.northstarlabs.fantag.92.png",
+      "160": "com.northstarlabs.fantag.92.png",
+      "0": "com.northstarlabs.fantag.92.png"
+    },
+    "antiFeatures": {},
+    "packageName": "com.northstarlabs.fantag",
+    "versionCode": 92,
+    "name": "FANTAG",
+    "versionName": "2.0.6-b13",
+    "minSdkVersion": 26,
+    "targetSdkVersion": 35,
+    "sig": "52f758e9173ceb169ebc8cefe3ef5819",
+    "signer": "cba754a3caaae86a30bcfc5af4ac73b9b17ddc1f15d37c91734ffe1b8a9a87b1",
+    "size": 6481123,
+    "apkName": "com.northstarlabs.fantag_92.apk",
+    "icon": "com.northstarlabs.fantag.92.png",
+    "added": 1780010298.0
   }
 }
