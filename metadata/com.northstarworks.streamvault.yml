@@ -18,10 +18,10 @@ SourceCode: https://github.com/northstar-works/StreamVault
 IssueTracker: https://github.com/northstar-works/StreamVault/issues
 
 AllowedAPKSigningKeys:
-  - 9540fe05352a4498c606fd30fceb12a99fb0084b5a96e72141f4a3caf5800e87
+  - 1c736e0a59ce89e4820a8bca9924f8d2381acd5f9103c71a869ca7592568a1f8
 
 AutoUpdateMode: None
 UpdateCheckMode: None
 
-CurrentVersion: 6.4.3
-CurrentVersionCode: 270
+CurrentVersion: 6.4.3.5
+CurrentVersionCode: 275

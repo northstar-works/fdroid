@@ -23,5 +23,5 @@ AllowedAPKSigningKeys:
 AutoUpdateMode: None
 UpdateCheckMode: None
 
-CurrentVersion: 6.4.3-tv
-CurrentVersionCode: 270
+CurrentVersion: 6.4.3.5-tv
+CurrentVersionCode: 275
