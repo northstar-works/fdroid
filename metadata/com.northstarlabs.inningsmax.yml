@@ -1,0 +1,28 @@
+Categories:
+  - Sports & Health
+
+License: Proprietary
+
+AuthorName: Northstar Labs
+AuthorWebSite: https://github.com/northstar-works
+
+Name: Innings Max
+Summary: Fantasy baseball innings cap strategy tracker
+Description: |-
+  Innings Max is a fantasy baseball innings cap strategy tracker for planning
+  starting pitchers, relief pitcher usage, projected innings, projected points,
+  and Sunday eligibility under a weekly innings cap.
+
+  This Android build is a native WebView wrapper for the Innings Max dashboard.
+
+SourceCode: https://github.com/northstar-works/InningsCapMaximizer
+IssueTracker: https://github.com/northstar-works/InningsCapMaximizer/issues
+
+AllowedAPKSigningKeys:
+  - 1c736e0a59ce89e4820a8bca9924f8d2381acd5f9103c71a869ca7592568a1f8
+
+AutoUpdateMode: None
+UpdateCheckMode: None
+
+CurrentVersion: 1.6.7
+CurrentVersionCode: 32
